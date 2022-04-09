@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@200;300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Anybody', cursive;
+    color: rgb(155, 166, 175);
+}
+
+.container{
+    display: block;
+    text-align: center;
+    height: 80vh;
+    background-color: rgb(45, 53, 53);
+    padding: 5%;
+}
+
+.currencie-border{
+    margin: 0 auto;
+    max-width: fit-content;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 10px;
+}
+h3{
+    padding: 15px;
+}
+
+.currencies{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.currencies .card{
+    margin: 15px;
+    padding: 30px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.stock-border{
+    margin: 0 auto;
+    max-width: fit-content;
+    margin-top: 40px;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.stocks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center; 
+}
+
+.stocks .card{
+    align-items: center;
+    margin: 15px;
+    padding: 30px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
